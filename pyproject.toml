@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "codex-windows-shared-home"
+version = "0.1.0"
+description = "Experimental sequential Windows shared-home toolkit for Codex Desktop"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+[project.scripts]
+codex-shared-home = "codex_shared_home.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

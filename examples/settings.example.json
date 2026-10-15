@@ -1,0 +1,32 @@
+{
+  "shared_root": "D:\\CodexShared",
+  "private_relative": "CodexShared\\home-v1",
+  "allow_private_state_binding": false,
+  "app_executable": "",
+  "expected_package_version": "",
+  "proxy_url": null,
+  "participants": [
+    {
+      "sid": "S-1-5-21-111111111-222222222-333333333-1001",
+      "profile": "C:\\Users\\UserA",
+      "source_home": "C:\\Users\\UserA\\.codex"
+    },
+    {
+      "sid": "S-1-5-21-111111111-222222222-333333333-1002",
+      "profile": "C:\\Users\\UserB",
+      "source_home": "C:\\Users\\UserB\\.codex"
+    }
+  ],
+  "path_mappings": [
+    {
+      "source": "C:\\Users\\UserA\\.codex\\worktrees",
+      "destination": "D:\\CodexWorkspaces\\worktrees",
+      "identity_destination": "D:\\CodexShared\\home\\worktrees"
+    },
+    {
+      "source": "C:\\Users\\UserA\\.codex",
+      "destination": "D:\\CodexShared\\home"
+    }
+  ],
+  "ordinary_config_overrides": []
+}
